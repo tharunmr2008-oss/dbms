@@ -1,0 +1,30 @@
+INSERT INTO Department VALUES
+(1, 'IT'),
+(2, 'HR'),
+(3, 'Finance'),
+(4, 'Marketing');
+
+INSERT INTO Employee VALUES
+(1, 'Arun', 50000, 1, '2025-01-10'),
+(2, 'Bala', 60000, 1, '2024-11-15'),
+(3, 'Cathy', 45000, 2, '2025-02-20'),
+(4, 'David', 70000, 3, '2024-08-10'),
+(5, 'Eva', 55000, 3, '2025-03-01'),
+(6, 'Arun', 50000, 1, '2025-01-10'); -- duplicate
+
+INSERT INTO Bonus VALUES
+(1, 1, 5000),
+(2, 3, 3000);
+
+INSERT INTO Student VALUES
+(1, 'John', 80),
+(2, 'Mary', 90),
+(3, 'Sam', 70),
+(4, 'Rita', 85);
+
+INSERT INTO Sales VALUES
+(1, '2025-01-10', 1000),
+(2, '2025-01-15', 2000),
+(3, '2025-02-10', 1500),
+(4, '2025-02-20', 2500),
+(5, '2025-03-05', 3000);
