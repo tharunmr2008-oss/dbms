@@ -1,0 +1,5 @@
+SELECT *
+FROM Employee
+WHERE id NOT IN (
+    SELECT employee_id FROM Bonus
+);
