@@ -1,0 +1,5 @@
+SELECT d.*
+FROM Department d
+LEFT JOIN Employee e
+ON d.department_id = e.department
+WHERE e.department IS NULL;
